@@ -1,0 +1,13 @@
+ul li{
+display:inline;
+padding: 10px;
+}
+ul li a{
+background-color: #333333;
+color:#CCCCCC;
+padding: 3px 7px;
+}
+
+h1{
+    text-align: center;
+}
