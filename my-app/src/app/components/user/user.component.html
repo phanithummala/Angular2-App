@@ -1,5 +1,5 @@
 <ul>
-  <li>User Name{{name}}</li>
+  <li>User Name :{{name}}</li>
   <li>Age: {{age}}</li>
   <li>Email: {{email}}</li>
   <li>Address :{{address.street}} {{address.city}}, {{address.state}}</li>
@@ -46,7 +46,7 @@
 </form>
 <ul>
   <li *ngFor="let hobby of hobbies; let i = index">
-    {{i + 1}}: {{hobby}} <button class="btn btn-primary" (click)="deleteHobby(i)">X</button>
+    {{i + 1}}: {{hobby}} <button class="btn btn-primary" (click)="deleteHobby(i)">Delete</button>
   </li>
 </ul>
 
